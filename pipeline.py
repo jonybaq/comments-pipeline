@@ -35,7 +35,7 @@ def main():
     print("¡Modelo cargado en memoria!")
 
     # 4. Conectar a la API y obtener comentarios
-    api_url = "https://dummyjson.com/c/513d-dd56-4850-8d59" # ¡CAMBIA ESTO POR TU API REAL!
+    api_url = "https://dummyjson.com/c/d184-cac2-495c-b77f" # ¡CAMBIA ESTO POR TU API REAL!
     print(f"Descargando comentarios desde: {api_url}")
     response = requests.get(api_url)
     comentarios = response.json().get("comments", [])
