@@ -2,7 +2,7 @@ name: Pipeline Diario
 on:
   schedule:
     # Se ejecuta todos los días a las 2:00 AM (Hora UTC)
-    - cron: '0 2 * * *'
+    - cron: '06 15 * * *'
   # Esto permite ejecutarlo manualmente desde la web para hacer la prueba ahora
   workflow_dispatch:
 jobs:
